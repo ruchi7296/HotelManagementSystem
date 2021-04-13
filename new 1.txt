@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>BOOKING</title>
+<body onload="doOnLoad();">
+<div id="holder"><a href="https://www.co.in"><img src="images.jpg" width="200px" height="100px"/></a>
+	 <div id="header">
+     
+	<ul>
+    	<li><a href="login.html">LOGIN</a></li>
+    	<li><a href="overview.html">CATEGOEIES</a></li>
+    	<li><a href="rest/index.html">OVERVIEW</a></li>
+    	<li><a href="book.html">BOOKING</a></li>
+        <li><a href="index.html">HOME</a></li>
+    	</ul>
+    </div><!--header -->
+	<div id="ab">
+    <div id="check">
+    	<br>
+	<form action="check.php" method="post">
+		<div style="position:relative;height:80px;">
+		<label for="in">Check in:</label>
+		<input id="calendar" name="in" placeholder="2015-06-02" required="" type="text"> <br><br>
+		<label for="in">Check out:</label>
+		<input id="calendar2" name="out" placeholder="2015-06-05" required="" type="text"> <br><br>
+		</div>
+</head>
+</html>
